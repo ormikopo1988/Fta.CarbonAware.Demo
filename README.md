@@ -142,11 +142,11 @@ Be careful to never commit this secret directly in source control.
 
 ### Architecture
 
-![Here, we are seeing an architecture for a carbon aware web application.](/Carbon-Aware-Web-Application-Architecture.png)
+![Here we can see an architecture for a heavy CPU intensive batch job, which we want to run on the optimal time of the day](/Heavy-CPU-Batch-Job-Architecture.png)
 
-Let’s move to our second demo. ![Here we can see an architecture for a heavy CPU intensive batch job, which we want to run on the optimal time of the day](/Heavy-CPU-Batch-Job-Architecture.png).
+Let’s move to our second demo. 
 
-We will have two different functions. The first one, which is called `CarbonAwareBatchTriggerFunction`, will be a timer trigger function. 
+There are two different functions. The first one, which is called `CarbonAwareBatchTriggerFunction`, will be a timer trigger function. 
 Imagine that this will run every day at 12:01 AM. This function when triggered, will call the Carbon aware SDK API to request which time inside the next 24-hour period will be the optimal time point, 
 in regards to carbon emissions, for running this batch job. When having received the response back, it will then create a scheduled message to send to a service bus queue. 
 For example, if the API responds to the function that the optimal data point is at 5:00 PM in the afternoon, the function will create a scheduled message and will instruct service bus to enqueue it at 5:00 PM.
