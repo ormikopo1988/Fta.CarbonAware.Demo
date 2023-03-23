@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fta.CarbonAware.Web", "Fta.CarbonAware.Web\Fta.CarbonAware.Web.csproj", "{4AFFF8CB-F8B4-4598-8687-9E7132ABA218}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fta.CarbonAware.AzFn", "Fta.CarbonAware.AzFn\Fta.CarbonAware.AzFn.csproj", "{A41D59A8-851F-4F7C-A323-5815511D383D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fta.CarbonAware.Library", "Fta.CarbonAware.Library\Fta.CarbonAware.Library.csproj", "{6187667A-7097-4955-AFF5-A9B05721D722}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{97FDDD02-A084-468D-8DA6-FF7D44B04EFD}"
+	ProjectSection(SolutionItems) = preProject
+		Carbon-Aware-Web-Application-Architecture.png = Carbon-Aware-Web-Application-Architecture.png
+		Heavy-CPU-Batch-Job-Architecture.png = Heavy-CPU-Batch-Job-Architecture.png
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AFFF8CB-F8B4-4598-8687-9E7132ABA218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AFFF8CB-F8B4-4598-8687-9E7132ABA218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AFFF8CB-F8B4-4598-8687-9E7132ABA218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AFFF8CB-F8B4-4598-8687-9E7132ABA218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A41D59A8-851F-4F7C-A323-5815511D383D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A41D59A8-851F-4F7C-A323-5815511D383D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A41D59A8-851F-4F7C-A323-5815511D383D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A41D59A8-851F-4F7C-A323-5815511D383D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6187667A-7097-4955-AFF5-A9B05721D722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6187667A-7097-4955-AFF5-A9B05721D722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6187667A-7097-4955-AFF5-A9B05721D722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6187667A-7097-4955-AFF5-A9B05721D722}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {612F5472-6930-4868-B09F-4A2502E10C59}
+	EndGlobalSection
+EndGlobal

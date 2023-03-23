@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>113d3522-2f37-43e5-8556-5767d554d2c4</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="7.0.3" />
+    <PackageReference Include="Polly" Version="7.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fta.CarbonAware.Library\Fta.CarbonAware.Library.csproj" />
+  </ItemGroup>
+
+</Project>
