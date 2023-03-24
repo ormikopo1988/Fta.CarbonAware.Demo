@@ -138,6 +138,8 @@ For the "AccessToken" part of the "IpInfoApi" section, you should paste here you
 You can set this using the Secret Manager, when you are running this from your local machine. In production scenarios, you can use Azure Key Vault.
 Be careful to never commit this secret directly in source control.
 
+[Video containing the use case demo](https://clipchamp.com/watch/JdWSIGwP3zi)
+
 ## Demo No2: Heavy CPU batch job running in optimal time of day
 
 ### Architecture
@@ -181,3 +183,5 @@ For you to run this demo locally, you will need to do the following:
 }
 
 ```
+
+[Video containing the use case demo](https://clipchamp.com/watch/8cl0lmA3OuD)
